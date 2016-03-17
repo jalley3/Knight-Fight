@@ -103,8 +103,8 @@ public class KnightDriver {
 		//prompt for restart
 		System.out.printf("%n%ntype 'again' to restart");
 		String end = scan.nextLine();
-		end.toLowerCase();
-		if (end.equals("again")){
+		String temp = end.toLowerCase();
+		if (temp.equals("again")){
 			KnightDriver.main(null);
 		scan.close(); //close scanner
 		}
