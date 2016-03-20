@@ -1,5 +1,5 @@
 import java.util.Random;
-
+//this is an edit.
 public class Knight {
 
 	//private variables
